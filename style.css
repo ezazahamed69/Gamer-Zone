@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "Work Sans", sans-serif;
+}
+.navbar {
+  /* background-image: url(./images/Group\ 14.png); */
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  list-style: none;
+}
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  margin: auto;
+  list-style: none;
+}
+.navbar > img {
+  width: 86.041px;
+  height: 40px;
+  flex-shrink: 0;
+  padding-left: 130px;
+}
+.navbar h3 {
+  padding: 20px;
+  text-align: center;
+  gap: 20px;
+  font-family: Work Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#border {
+  padding: 5px 5px 5px 5px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  align-items: center;
+}
+.body-part {
+  display: flex;
+  flex-direction: row-reverse;
+  background-image: url(./images/Group\ 14.png);
+  color: #0b0223;
+  text-align: left;
+  font-family: Work Sans;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.body-part img-item {
+  display: flex;
+  justify-content: center;
+}
+.body-part h2 {
+  font-family: Work Sans;
+  padding: 110px;
+}
+/* .body-part p {
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    padding: 95px 111px;
+} */
+.signin {
+  padding: 15px 21px;
+  border-radius: 48px;
+  font-family: Work Sans;
+  font-size: 18px;
+  gap: 10px;
+  background-color: #ff42a5;
+  color: white;
+  border: 0px;
+}
+.rogue {
+  padding: 15px 21px;
+  border-radius: 48px;
+  font-family: Work Sans;
+  font-size: 18px;
+  background-color: #4ec5f7;
+  color: white;
+  border: 0px;
+}
+/* we are gamer part */
+.another-body {
+  display: flex;
+  background-image: url(./images/Group\ 14.png);
+  color: #0b0223;
+  text-align: left;
+  font-family: Work Sans;
+  font-size: 34px;
+  font-weight: 600;
+}
+.another-body img {
+  display: flex;
+  justify-content: center;
+}
+.another-body h3 {
+  font-size: 22px;
+  font-family: Work Sans;
+  /* padding: 48px 48px 40px 40px; */
+  padding-left: 160px;
+}
+.another-body p {
+  text-align: left;
+  font-weight: 400;
+  font-size: 21px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-left: 160px;
+  /* padding-right: 160px; */
+}
+.know-more {
+  padding: 15px 21px;
+  margin-left: 20rem;
+  text-align: center;
+  border-radius: 48px;
+  font-family: Work Sans;
+  font-size: 18px;
+  gap: 10px;
+  background-color: #ff42a5;
+  color: white;
+  border: 0px;
+}
+/* online games section*/
+.bold h2 {
+  font-size: 40px;
+  text-align: center;
+  font-family: Work Sans;
+}
+.bold p {
+  color: #534c64;
+  text-align: center;
+  font-weight: 400;
+}
+.only-flex > p {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 500;
+  /* word-wrap: break-word; */
+  text-align: left;
+  /* padding: 1rem 2.5rem; */
+  width: 20em;
+}
+.only-flex img {
+   width: 20vw;
+}
+.only-flex {
+   
+   /* word-wrap: break-word; */
+   text-align: left;
+
+}
+.main-flex{
+   display: flex;
+   justify-content: space-around;
+   gap: 20px;
+
+   /* flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center; */
+   /* padding: 1px;
+   margin: 10px; */
+}
