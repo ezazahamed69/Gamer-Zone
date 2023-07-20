@@ -174,3 +174,106 @@
    justify-content: space-around;
    gap: 20px;
 }
+
+/* -----------------footer-part------------------- */
+.game-part > button {
+   color: #0B0223;
+   font-family: Work Sans;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   border-radius: 50px;
+   border: 2px solid #fff ;
+   margin: 10px;
+   padding: 10px;
+}
+.game-part > button:hover {
+   color: #FF42A5;
+   font-family: Work Sans;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   border-radius: 50px;
+   border: 2px solid #FF42A5 ;
+   margin: 10px;
+   padding: 10px;
+}
+
+.game-part {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 20px;
+   margin: 20px;
+}
+
+
+
+/* footer  */
+footer {
+   background: #0B0223;
+   padding: 0px 200px;
+}
+
+.title {
+   font-family: Work Sans;
+   font-size: 45px;
+   font-weight: 700;
+   color: white;
+}
+
+.lower-part {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+.catagory a {
+   text-decoration: none;
+   color: #FFF;
+   text-align: center;
+   font-family: Work Sans;
+   font-size: 18px;
+   font-weight: 600;
+   padding: 0px 40px;
+}
+
+.catagory {
+   text-align: center;
+}
+
+.social-media {
+   text-align: center;
+   padding: 20px;
+}
+
+.social-media i {
+   font-size: 40px;
+   height: 35px;
+   width: 35px;
+   padding: 30px;
+}
+
+.footer {
+   color: rgba(255, 255, 255, 0.60);
+   text-align: center;
+   font-family: Work Sans;
+   font-size: 16px;
+   font-weight: 500;
+   padding: 20px;
+}
+
+.footer-end {
+   display: flex;
+   gap: 35px;
+   justify-content: center;
+}
